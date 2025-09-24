@@ -28,3 +28,13 @@ int main() {
 
     cout << "Enter number of passengers: ";
     cin >> pax;
+
+    int carType;
+
+    cout << "Choose car type:" << endl;
+    cout << "1. GrabCar (Base RM5, RM1.80/km, up to 4 pax)" << endl;
+    cout << "2. GrabCar Plus (Base RM8, RM2.20/km, up to 4 pax)" << endl;
+    cout << "3. GrabCar XL (Base RM10, RM2.50/km, up to 6 pax)" << endl;
+    cout << "Enter option (1-3): ";
+    cin >> carType;
+
