@@ -62,3 +62,18 @@ int main() {
 
     cout << fixed << setprecision(2);
     cout << "Total fare: RM " << totalFare << endl;
+
+  
+    // ===============================
+    if (carType == 1 && pax > 4) {
+        cout << "⚠️ GrabCar cannot take more than 4 passengers!" << endl;
+        return 0;
+    }
+    if (carType == 2 && pax > 4) {
+        cout << "⚠️ GrabCar Plus cannot take more than 4 passengers!" << endl;
+        return 0;
+    }
+    if (carType == 3 && pax > 6) {
+        cout << "⚠️ GrabCar XL cannot take more than 6 passengers!" << endl;
+        return 0;
+    }
