@@ -38,3 +38,27 @@ int main() {
     cout << "Enter option (1-3): ";
     cin >> carType;
 
+// Base fares and per km rates
+    double baseGrabCar = 5.00, rateGrabCar = 1.80;
+    double basePlus    = 8.00, ratePlus    = 2.20;
+    double baseXL      = 10.00, rateXL     = 2.50;
+
+    double totalFare;
+
+    // Basic fare calculation
+    if (carType == 1) {
+        totalFare = baseGrabCar + (distance * rateGrabCar);
+    }
+    else if (carType == 2) {
+        totalFare = basePlus + (distance * ratePlus);
+    }
+    else if (carType == 3) {
+        totalFare = baseXL + (distance * rateXL);
+    }
+    else {
+        cout << "❌ Invalid car type selection!" << endl;
+        return 0;
+    }
+
+    cout << fixed << setprecision(2);
+    cout << "Total fare: RM " << totalFare << endl;
