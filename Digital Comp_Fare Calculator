@@ -77,3 +77,13 @@ int main() {
         cout << "⚠️ GrabCar XL cannot take more than 6 passengers!" << endl;
         return 0;
     }
+    
+   
+    // ===============================
+    cout << "==============================" << endl;
+    cout << "Total fare: RM " << totalFare << endl;
+    cout << "Thank you for using Grab!" << endl;
+    cout << "==============================" << endl;
+
+    return 0;
+}
