@@ -14,3 +14,17 @@ int main() {
     cout << "     Grab Fare Calculator     " << endl;
     cout << "==============================" << endl;
 
+
+    // ===============================
+    // 👤 Aletheia – Commit 2
+    // Commit message:
+    // Added distance and passenger input
+    // ===============================
+    double distance;   // input: distance in km
+    int pax;           // input: number of passengers
+
+    cout << "Enter distance (km): ";
+    cin >> distance;
+
+    cout << "Enter number of passengers: ";
+    cin >> pax;
