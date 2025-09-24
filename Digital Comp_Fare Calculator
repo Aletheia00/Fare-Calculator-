@@ -1,1 +1,16 @@
 
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main() {
+
+    // ===============================
+    // 👤 Aletheia – Commit 1
+    // Commit message:
+    // Initial commit: created program skeleton with title
+    // ===============================
+    cout << "==============================" << endl;
+    cout << "     Grab Fare Calculator     " << endl;
+    cout << "==============================" << endl;
+
